@@ -6,4 +6,8 @@ export default defineConfig({
   plugins: [react()],
   base: '/static/',
   root: './static/src',
+
+  server: {
+    origin: 'http://localhost:5173',
+  }
 })

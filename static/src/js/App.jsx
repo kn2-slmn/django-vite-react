@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import './App.css'
+import '../css/App.css'
+import viteImg from '../icons/vite.svg'
+import reactImg from '../icons/react.svg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,11 +9,11 @@ function App() {
   return (
     <div className="App">
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="#" className="logo" alt="Vite logo" />
+        <a href="#" target="_blank">
+          <img src={viteImg} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src="#" className="logo react" alt="React logo" />
+        <a href="#" target="_blank">
+          <img src={reactImg} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>Vite + React</h1>
